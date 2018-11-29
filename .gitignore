@@ -1,6 +1,3 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
-.idea/inspectionProfiles/
-.idea/reactJs-pentaStagiu.iml
-.idea/workspace.xml
-
+.idea/*

@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+
+}
+header {
+    background: rgba(0,0,0,0.69);
+    padding: 30px;
+    max-width: 80%;
+    margin: 0 auto 15px;
+    color: #e6e6e6;
+}
+
+h1, h3, h4 {
+    margin: 0;
+}
+
+i, h1{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+header i {
+    font-size: 40px;
+    color: #00d8ff;
+    padding-right: 10px;
+}
+
+ header h3 {
+     padding-left: 55px;
+ }
+
+.module_one {
+    background: #f9b0ae;
+    padding: 30px;
+    max-width: 80%;
+    margin: 0 auto 15px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
