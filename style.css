@@ -23,6 +23,19 @@ i, h1{
     padding-bottom: 10px;
 }
 
-/***** CLASSES *****/
+/***** ROTATE LOGO *****/
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
 
-
+.rotate {
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         1.5s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}

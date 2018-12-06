@@ -16,3 +16,18 @@ secondHeading.appendChild(nodeTwo)
 var element = document.getElementById("header");
 element.appendChild(firstHeading);
 element.appendChild(secondHeading);
+
+
+
+// *** LOGO ANIMATION
+function rotateLogo (){
+     const theLogo = document.querySelector('.logo');
+     theLogo.classList.add('rotate')
+    }
+function stopLogo (){
+    const theLogo = document.querySelector('.logo');
+    theLogo.classList.remove('rotate')
+}
+
+document.querySelector('.logo').addEventListener('mouseover', rotateLogo)
+document.querySelector('.logo').addEventListener('mouseout', stopLogo)
