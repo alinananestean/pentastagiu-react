@@ -1,15 +1,16 @@
-body {
+* {
     box-sizing: border-box;
+}
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    color: #4c4c4c;
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    max-width: 80%;
-}
 header i {
-    font-size: 40px;
+    font-size: 35px;
     color: #00d8ff;
-    padding-right: 10px;
 }
 
  header h3 {
@@ -18,9 +19,71 @@ header i {
 h1, h3, h4 {
     margin: 0;
 }
-i, h1{
+h1{
     display: inline-block;
     padding-bottom: 10px;
+}
+h1{
+    padding-left: 10px;
+}
+/*** RSVP SECTION***/
+#registration {
+    text-align: center;
+    background: linear-gradient(90deg, #d4eece, #55b3d0, #1e7eb7),
+    url('img/reactjs.jpg') no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 0 -123px;
+    opacity: 0.9;
+    height: 280px;
+}
+
+#registration h1 {
+    font-size: 60px;
+    color: #dedede;
+    margin-top: .8em;
+    margin-bottom: 0;
+}
+/**  FORM  **/
+#registration form {
+    margin: 7.55em auto 0;
+    z-index: 3000;
+    position: relative;
+    width: 60%;
+    background: white;
+    display: inline-block;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    border-radius: .2em;
+    border: solid 4px white;
+    box-shadow: 0 1px 14px rgba(0,0,0, .12);
+}
+#registration input {
+    padding: 12px;
+    font-size: 1.15em;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+#registration button {
+    padding: 0 1em;
+    font-size: 1em;
+    background: #7bcbc4;
+    border-radius: .2em;
+    color: white;
+    border: none;
+    outline: none;
+}
+/*** INVITES SECTION***/
+#registration__main {
+    padding: 3.8em 1.5em .75em;
+    background: #f5f5f5;
+}
+#registration__main h2 {
+    color: #323232;
 }
 
 /***** ROTATE LOGO *****/
@@ -35,7 +98,7 @@ i, h1{
 
 .rotate {
     -webkit-animation-name:             rotate;
-    -webkit-animation-duration:         1.5s;
+    -webkit-animation-duration:         1.7s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-animation-timing-function: cubic-bezier(1, 1, 1, 1);
 }

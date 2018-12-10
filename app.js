@@ -9,7 +9,7 @@ document.getElementById('header').style.margin = "0 auto 15px";
 // *** APPENDING HEADINGS TO THE HEADER
 const firstHeading = document.createElement("h1");
 const secondHeading = document.createElement("h3");
-const nodeOne = document.createTextNode('Learning React JS');
+const nodeOne = document.createTextNode('Learn React JS');
 const nodeTwo = document.createTextNode('with PentaStagiu Remote - ReactJS');
 firstHeading.appendChild(nodeOne);
 secondHeading.appendChild(nodeTwo)
